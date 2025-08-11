@@ -183,7 +183,7 @@
                         <div class="col-xxl-8">
                             <div class="text-center my-5">
                                 <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
-                                <p class="lead fw-light mb-4">My name is Farhan Badru Tamam and I work as a web developer | app developer | digital marketer | systems analyst.</p>
+                                <h1 class="lead fw-light mb-4">My name is Farhan Badru Tamam and I work as <span class="text-gradient d-inline">a web developer | app developer | digital marketer | systems analyst.</span></h1>
                                 <p class="text-muted">My name is Farhan Badru Tamam, and I'm a self-starter based in Semarang, Central Java. I'm a reliable and dedicated individual with expertise in several key areas. My focus includes web development, where I build and maintain dynamic and responsive websites, and app development, where I create innovative and user-friendly mobile apps. Furthermore, I have a strong background in digital marketing, utilizing various strategies to increase brand visibility and drive growth. My expertise also includes systems analysis, where I analyze and design efficient and effective information systems to meet business needs. I'm committed to delivering high-quality results and am constantly seeking new challenges to expand my skillset.</p>
                                 <div class="d-flex justify-content-center fs-2 gap-4">
                                     <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>

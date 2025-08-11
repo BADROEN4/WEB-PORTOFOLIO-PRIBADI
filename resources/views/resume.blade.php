@@ -60,7 +60,7 @@
                                             <div class="bg-light p-4 rounded-4">
                                                 <div class="text-primary fw-bolder mb-2">2024 - DMS Surat</div>
                                                 <div class="small fw-bolder">Intern Web Developer</div>
-                                                <div class="small text-muted">DISKOMINFO Kota Semarang</div>
+                                                <div class="small text-muted"><span class="text-gradient d-inline">DISKOMINFO Kota Semarang</span></div>
                                                 <div class="small text-muted">Kota Semarang, Jawa Tengah</div>
                                             </div>
                                         </div>
@@ -76,7 +76,7 @@
                                             <div class="bg-light p-4 rounded-4">
                                                 <div class="text-primary fw-bolder mb-2">2023 - IMS Inventori</div>
                                                 <div class="small fw-bolder">Web Developer</div>
-                                                <div class="small text-muted">CV. Mahkota Prima Globalindo</div>
+                                                <div class="small text-muted"><span class="text-gradient d-inline">CV. Mahkota Prima Globalindo</span></div>
                                                 <div class="small text-muted">Ungaran Kab. Semarang, Jawa Tengah</div>
                                             </div>
                                         </div>
