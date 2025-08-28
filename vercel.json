@@ -11,6 +11,6 @@
             "dest": "/api/index.php"
         }
     ],
-    "installCommand": "npm install && npm run build && php -r \"copy('https://getcomposer.org/installer', 'composer-setup.php');\" && php composer-setup.php && php -r \"unlink('composer-setup.php');\" && php composer.phar install --no-dev",
+    "installCommand": "npm install && npm run build && curl -sS https://getcomposer.org/installer | php && php composer.phar install --no-dev",
     "buildCommand": "php artisan cache:clear && php artisan config:cache && php artisan route:cache && php artisan view:cache"
 }
