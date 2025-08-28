@@ -19,41 +19,22 @@
     </head>
     <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="/"><span class="fw-bolder text-primary">[My Resume]</span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
-                            <li class="nav-item"><a class="nav-link" href="project">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
             <!-- Page Content-->
             <div class="container px-5 my-5">
                 <div class="text-center mb-5">
                     <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resume</span></h1>
+                </div>
+                <div class="d-flex align-items-center justify-content-between mb-4">
+                     <h2 class="text-primary fw-bolder mb-0">About Me</h2>
+                     <p class="lead fw-light mb-4">My name is Farhan Badru Tamam and I work as a <span class="text-gradient d-inline">web developer | app developer | digital marketer | systems analyst.</span></p>
+                      <p class="text-muted">My name is Farhan Badru Tamam, and I'm a self-starter based in Semarang, Central Java. I'm a reliable and dedicated individual with expertise in several key areas. My focus includes web development, where I build and maintain dynamic and responsive websites, and app development, where I create innovative and user-friendly mobile apps. Furthermore, I have a strong background in digital marketing, utilizing various strategies to increase brand visibility and drive growth. My expertise also includes systems analysis, where I analyze and design efficient and effective information systems to meet business needs. I'm committed to delivering high-quality results and am constantly seeking new challenges to expand my skillset.</p>
                 </div>
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-11 col-xl-9 col-xxl-8">
                         <!-- Experience Section-->
                         <section>
                             <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h2 class="text-primary fw-bolder mb-0">Experience</h2>
-                                <!-- Download resume button-->
-                                <!-- Note: Set the link href target to a PDF file within your project-->
-                                <a class="btn btn-primary px-4 py-3 pdf-hide" href="{{ route('resume.download') }}">
-                                    <div class="d-inline-block bi bi-download me-2"></div>
-                                    Download Resume
-                                </a>
-                                <a href="{{ route('resume.download') }}" style="display: none;" class="pdf-show">
-                                    Download Resume
-                                </a>
+                                <h2 class="text-primary fw-bolder mb-0">Experience</h2>        
                             </div>
                             <!-- Experience Card 1-->
                             <div class="card shadow border-0 rounded-4 mb-5">
@@ -224,21 +205,6 @@
                 </div>
             </div>
         </main>
-        <!-- Footer-->
-        <footer class="bg-white py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Farhan Badru T | 2025</div></div>
-                    <div class="col-auto">
-                        <a class="small" href="#!">Privacy</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Terms</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->

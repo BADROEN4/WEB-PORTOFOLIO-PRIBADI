@@ -50,7 +50,7 @@
                                             <h2 class="fw-bolder"><span class="text-gradient d-inline">Web-Based Warehouse Management System</span></h2>
                                             <p>A Web-Based Warehouse Management System is an application designed to manage and monitor all warehouse activities digitally. This system allows users to track the movement of goods, manage inventory, and generate reports in real-time. Its primary goal is to enhance operational efficiency, improve inventory data accuracy, and facilitate better decision-making for business owners.</p>
                                         </div>
-                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        <img class="img-fluid" src="{{ asset('assets/projek2.png') }}" alt="Web-Based Warehouse Management System" />
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@
                                             <h2 class="fw-bolder"><span class="text-gradient d-inline">Web-Based Correspondence Management System</span></h2>
                                             <p>A Web-Based Correspondence Management System is an application designed to manage and archive all incoming and outgoing mail for an organization. This system streamlines the process of digitally filing, searching for, and tracking correspondence, replacing often inefficient manual methods.</p>
                                         </div>
-                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                        <img class="img-fluid" src="{{ asset('assets/projek3.jpg') }}" alt="Web-Based Correspondence Management System" />
                                     </div>
                                 </div>
                             </div>
