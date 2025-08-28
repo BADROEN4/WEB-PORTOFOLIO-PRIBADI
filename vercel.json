@@ -13,6 +13,5 @@
         }
     ],
     "installCommand": "npm install && npm run build && composer install --no-dev",
-    "buildCommand": "php artisan cache:clear && php artisan config:cache && php artisan route:cache && php artisan view:cache",
-    "public": "public"
+    "buildCommand": "php artisan cache:clear && php artisan config:cache && php artisan route:cache && php artisan view:cache"
 }
